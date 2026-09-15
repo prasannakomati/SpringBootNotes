@@ -1221,7 +1221,8 @@ Inserts initial books
 ## `pom.xml`
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -1237,8 +1238,8 @@ Inserts initial books
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>h2DBPractice</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+	<artifactId>h2DBPractice</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
     <name>goodreads</name>
     <description>Demo project for Spring Boot</description>
@@ -1285,12 +1286,10 @@ Inserts initial books
 
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
         </plugins>
     </build>
 
